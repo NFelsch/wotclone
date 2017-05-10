@@ -1,5 +1,79 @@
 
 
+@media (min-width: 400px) {
+    .background-img {
+            background: url(http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg) no-repeat;  
+            width: 50px;
+            height:50vh;
+        }
+    }
 * {
     box-sizing: border-box;
+    margin: 0;
+}
+
+.nav-bar {
+    background-color: white;
+    top: 0;
+    width: 100%;
+    height: 4.6em;
+    position: fixed;
+    margin: 0;
+    padding: 8px;
+}
+
+.hamburger {
+    position: fixed;
+    display: inline-block;
+    cursor: pointer;
+    left: 80%;
+    top: 1.5em;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    margin: 3px 0;
+    opacity: .5;
+}
+
+.background-img {
+    height: 50vh;
+    
+    display: block;
+    width: auto;
+}
+
+.your-digital {
+    left: auto;
+    color: white;
+    font-style: bold;
+    font-size: 23px;
+    font-family: 'Oswald';  
+    padding: 80px 5px 5px 5px;   
+    text-align: center;  
+}
+
+.workshop {
+    color: white;
+    font-size: 69px;
+    font-family: 'Oswald';
+}
+
+.wide-open-logo {
+    background:url("file:///C:/Users/nicho/Downloads/wot-logo-whitex2.svg") no-repeat;
+    top: 23px;
+    left: 10%;
+    width: 210px;
+    height: 30px;
+    position: fixed;
+}
+
+.second-block {
+    display: block;
+    background-color: #F0F0F0;
+    width: 100%;
+    height: 20em;
+    margin: 0;
 }
